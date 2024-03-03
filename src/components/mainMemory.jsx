@@ -1,19 +1,25 @@
+import styled from "styled-components";
 
-// Styled component para o componente MainMemory
-const MainMemory = styled.div`
-  grid-area: mainMemory; /* Define a área do grid para esse componente */
+const MainMemoryStyled = styled.div`
+   /* Define a flexibilidade do componente */
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 300px;
 `;
 
-const mainMemory = () => {
-  return (
-    <div>
-      <h1>Memoria Principal</h1>
+const H1Styled = styled.h1`
+  font-size: 1.8rem;
+`;
 
-    </div>
+
+
+const MainMemory = () => {
+  return (
+    <MainMemoryStyled>
+      <H1Styled>Memoria Principal</H1Styled>
+
+    </MainMemoryStyled>
   );
 }
 
-export default mainMemory;
+export default MainMemory;

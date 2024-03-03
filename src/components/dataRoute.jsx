@@ -1,18 +1,24 @@
-// Styled component para o componente DataRoute
-const DataRoute = styled.div`
-  grid-area: dataRoute; /* Define a área do grid para esse componente */
+import styled from "styled-components";
+
+const DataRouteStyled = styled.div`
+  flex: 1; /* Define a flexibilidade do componente */
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 20px;
 `;
 
-const dataRoute = () => {
-  return (
-    <div>
-      <h1>Rota de Dados</h1>
+const H1Styled = styled.h1`
+  font-size: 1.8rem;
+  margin: 0;
+`;
 
-    </div>
+
+const DataRoute = () => {
+  return (
+    <DataRouteStyled>
+      <H1Styled>Rota de Dados</H1Styled>
+    </DataRouteStyled>
   );
 }
 
-export default dataRoute;
+export default DataRoute;

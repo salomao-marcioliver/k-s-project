@@ -1,17 +1,30 @@
-const ControlUnit = styled.div`
-  grid-area: controlUnit; /* Define a área do grid para esse componente */
+import styled from "styled-components";
+
+const ControlUnitStyled = styled.div`
+  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
 `;
 
-const controlUnit = () => {
-  return (
-    <div>
-      <h1>Unidade de Controle</h1>
+const H1Styled = styled.h1`
+  font-size: 1.8rem;
+  margin: 0;
+`;
 
-    </div>
+const H2Styled = styled.h2`
+  font-size: 1rem;
+`;
+
+
+const ControlUnit = () => {
+  return (
+    <ControlUnitStyled>
+      <H1Styled>Unidade de Controle</H1Styled>
+      <H2Styled>Registro de Microinstruções</H2Styled>
+
+    </ControlUnitStyled>
   );
 }
 
-export default controlUnit;
+export default ControlUnit
