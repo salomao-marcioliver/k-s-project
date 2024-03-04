@@ -22,8 +22,49 @@ const ControlUnit = () => {
     <ControlUnitStyled>
       <H1Styled>Unidade de Controle</H1Styled>
       <H2Styled>Registro de Microinstruções</H2Styled>
+      <div>
+        <button>Iniciar</button>
+        <button>Pausar</button>
+        <form action="">
+          <label htmlFor="">Velocidade da Animação</label>
+          <select name="" id="">
+            <option value="">Lento</option>
+            <option value="" selected>Normal</option>
+            <option value="">Rápido</option>
+          </select>
+        </form>
+        <table>
+          <tbody>
+            <tr>
+              <td>Endereço A</td>
+              <td> 0 0 </td>
+            </tr>
+            <tr>
+              <td>Endereço B</td>
+              <td> 0 0 </td>
+            </tr>
+            <tr>
+              <td>Endereço C</td>
+              <td> 0 0 </td>
+            </tr>
+            <tr>
+              <td>Operação da Unidade Lógica Aritmética</td>
+              <td> 0 0 </td>
+            </tr>
+            <tr>
+              <td>Posição das Chaves</td>
+              <td> 0 0 </td>
+            </tr>
+            <tr>
+              <td>Endereço de Leitura/Escrita</td>
+              <td> 0 0 </td>
+            </tr>
 
-    </ControlUnitStyled>
+          </tbody>
+        </table>
+      </div>
+
+    </ControlUnitStyled >
   );
 }
 
