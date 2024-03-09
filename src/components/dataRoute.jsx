@@ -20,7 +20,7 @@ const H1Styled = styled.h1`
 `;
 
 const Teste1Styled = styled.img`
-  width: 100px;
+  width: 120px;
   height: 100px;
 `;
 
@@ -44,6 +44,8 @@ const DataRoute = () => {
           <label htmlFor="">R2</label>
           <input type="text" />
         </FormStyled>
+        <Teste1Styled src={teste} alt="" />
+        <Teste1Styled src={teste} alt="" />
       </BusAdressStyled>
 
     </DataRouteStyled>
