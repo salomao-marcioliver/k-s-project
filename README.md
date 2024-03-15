@@ -20,7 +20,7 @@
 
 <div style="display:flex; justify-content:center; align-items:center;">
 
-| ![Autor 1](img/autor_1.png) | ![Autor 2](img/autor_2.png) |
+| ![Autor 1](src/assets/images/autor_1.png) | ![Autor 2](src/assets/images/autor_2.png) |
 |-----------------------------|-----------------------------|
 |- **Name:** Amiraldo Filho   | - **Name:** Salomão Marcioliver  |
 |- **Languages:** Python, JavaScript and C#. | - **Languages:** ReactJS and NodeJS. |
@@ -66,7 +66,7 @@ The simulator aims to provide a virtual environment for executing and viewing as
 [Figma](https://www.figma.com/) software was used to build the interface and prototype of the project, demonstrating how the app screens and their functions would be built. To access the prototype [click here](https://www.figma.com/file/7xl5Fj0ukT7eycQj5Mecu6/Interface-K%26S?type=design&node-id=0%3A1&mode=design&t=EzspFXlor75ikRUR-1).
 
 <h2 align ="center">
-    <img src="img/Interface K&S.png" alt="Interface K-S-PROJECT" width="850"/>
+    <img src="src/assets/images/Interface K&S.png" alt="Interface K-S-PROJECT" width="850"/>
 </h2>
 
 <h4 align ="center"> K-S-Project Interface | Source: Own authorship (2024) </h4>

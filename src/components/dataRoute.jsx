@@ -11,7 +11,6 @@ const DataRouteStyled = styled.div`
 const BusAdressStyled = styled.div`
   display: flex;
   flex-direction: row;
-
 `;
 
 const H1Styled = styled.h1`
